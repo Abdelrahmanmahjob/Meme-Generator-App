@@ -104,3 +104,15 @@ main {
 .top {
     top: 0;
 }
+
+@media (max-width: 768px) {
+    .form {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .meme span {
+        font-size: 1rem;
+    }
+}
