@@ -5,5 +5,5 @@ export default defineConfig({
 	plugins: [
 		react()
 	] ,
-	base: "/Meme-Generator-App/" 
+	base: "./" 
 })
